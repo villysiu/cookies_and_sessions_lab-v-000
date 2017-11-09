@@ -5,7 +5,7 @@ def add
 
    cart = session[:cart] || []
    cart << @product.id
- 
+
   # Save the cart in the session.
     session[:cart] = cart
 end
